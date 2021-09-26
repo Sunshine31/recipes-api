@@ -18,3 +18,5 @@ Content-Type: application/json
 }
 ###
 delete {{host}}/recipes/c587h7mg10l0epmn1880
+###
+get {{host}}/recipes/search?tag=italian
