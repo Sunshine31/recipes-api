@@ -1,10 +1,11 @@
 @host = http://localhost:8080
 
-post {{host}}/recipes/c57vfumg10l17l39notg
+//put {{host}}/recipes/c587e8ug10l0epmn187g
+post {{host}}/recipes
 Content-Type: application/json
 
 {
-  "name": "Shrimp scampi pizza",
+  "name": "swizzy pizza",
   "tags" : ["italian", "pizza", "dinner"],
   "ingredients": [
     "pizza dough",
@@ -15,3 +16,5 @@ Content-Type: application/json
   ],
   "instructions": []
 }
+###
+delete {{host}}/recipes/c587h7mg10l0epmn1880
